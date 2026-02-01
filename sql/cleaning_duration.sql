@@ -1,4 +1,13 @@
--- Data Sanitization --
+-- Purpose:
+-- Clean and normalize trip-level data before analysis.
+-- Remove temporally invalid rides, standardize station names, and compute ride duration.
+--
+-- Key assumptions:
+-- - Valid rides last between 0 and 24 hours.
+--
+-- Output table:
+-- cyclistic_data_analysis.ride_duration
+
 
 CREATE OR REPLACE TABLE
   `project.cyclistic_data_analysis.ride_duration` AS
