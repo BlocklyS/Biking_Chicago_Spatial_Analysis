@@ -1,4 +1,11 @@
--- Geospatial Logic --
+-- Purpose:
+-- Engineer spatial features to model rider movement.
+-- Compute both geodetic (earth-surface) distance and Manhattan distance
+-- to reflect real-world urban travel in Chicago.
+--
+-- Output table:
+-- cyclistic_data_analysis.spatial_metrics
+
 
 CREATE OR REPLACE TABLE
   `project.cyclistic_data_analysis.spatial_metrics` AS
