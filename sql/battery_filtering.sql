@@ -1,4 +1,13 @@
--- Domain Logic -- 
+-- Purpose:
+-- Enforce physical plausibility on e-bike trips.
+-- Remove rides exceeding estimated battery range and generate trip geometries.
+--
+-- Key assumptions:
+-- - Maximum e-bike range: 60 miles (96,560.6 meters).
+--
+-- Output table:
+-- cyclistic_data_analysis.clean_trips
+
 
 CREATE OR REPLACE TABLE
   `project.cyclistic_data_analysis.clean_trips` AS
