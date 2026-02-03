@@ -92,6 +92,14 @@ Final exploratory queries included:
 
 These results feed directly into the Looker Studio dashboard used for comparative analysis.
 
+## License & Data Attribution
+
+This repository is released under the MIT License.
+
+Trip data is provided by Chicago Divvy Bikes / Lyft Urban Solutions and is
+subject to their original data license and terms of use.
+The dataset is not redistributed in this repository.
+
 
 
 
